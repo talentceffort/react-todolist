@@ -4,7 +4,7 @@
   "description": "## 미리 알림 모방해보기.",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config ./webpack.config.js",
+    "dev": "webpack-dev-server --config ./webpack.config.js",
     "build": "webpack"
   },
   "repository": {
@@ -25,8 +25,15 @@
     "@babel/core": "^7.8.6",
     "@babel/preset-react": "^7.8.3",
     "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
     "babel-loader": "^8.0.6",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.5.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"

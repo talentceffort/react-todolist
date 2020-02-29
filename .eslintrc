@@ -1,0 +1,29 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true // js 문법에서 html 사용 가능.
+        }
+    },
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6" : true
+    },
+    "extends": [
+        "airbnb"    
+    ],
+    "plugins": [
+        "import",
+        "react-hooks"
+    ],
+    "rules": {
+        "no-underscore-dangle" : "off",
+        "linebreak-style": "off",
+        "react/forbid-prop-types": "off",
+        "jsx-quotes": "off",
+        "react/jsx-filename-extension": "off"
+    }
+}
